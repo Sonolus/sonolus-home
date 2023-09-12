@@ -1,0 +1,12 @@
+**/*.*
+
+!.eslintrc.cjs
+!postcss.config.cjs
+!tailwind.config.cjs
+!vite.config.ts
+
+!render.js
+
+!index.html
+
+!src/**/*.*

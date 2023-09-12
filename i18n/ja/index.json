@@ -1,0 +1,14 @@
+{
+    "meta.name": "日本語 (Japanese)",
+    "meta.lang": "ja",
+    "app.description": "Sonolusとは、プレイヤーと譜面制作者の自由度を重視して作り上げた次世代リズムゲーム",
+    "script.title": "スクリプト駆動",
+    "script.description": "高性能スクリプトエンジンを基に、どのようなリズムゲームエンジンでも開発できる。現有のリズムゲームを再現するか、全く新しいゲームエンジンを創るか、可能性は無限大。",
+    "servers.title": "サーバー",
+    "servers.description": "様々なゲームモードに対応するサーバーがあります。",
+    "servers.join": "コミュニティに入り、たくさんのコンテンツを楽しもう。",
+    "community.title": "コミュニティ",
+    "community.description": "最新開発ニュースや情報などはぜひコミュニティに入ってみよう！",
+    "support.title": "応援する",
+    "support.description": "Sonolusが楽しいと思う方はもし宜しければ、金銭的な負担を減らすためのご支援はぜひよろしくお願いします。"
+}

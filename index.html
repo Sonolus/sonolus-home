@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="msapplication-TileColor" content="#000020" />
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+        <meta name="theme-color" content="#000020" />
+        <meta property="og:image" content="https://sonolus.com/icon.png" />
+    </head>
+
+    <body class="bg-sonolus-main text-sonolus-ui-text-normal">
+        <header class="sticky top-0 flex h-16 items-center justify-between bg-sonolus-ui-surface">
+            <div class="h-16 w-16"></div>
+
+            <h1>
+                <img
+                    class="h-8 w-auto"
+                    width="1775"
+                    height="360"
+                    src="./src/assets/sonolus-logo.png"
+                    alt="Sonolus Logo"
+                />
+            </h1>
+
+            <button
+                id="btn-localization"
+                class="h-16 w-16 transition-colors duration-200 hover:bg-sonolus-ui-button-highlighted active:bg-sonolus-ui-button-pressed"
+                aria-label="Language"
+            >
+                <svg
+                    class="fill-current p-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 496 512"
+                >
+                    <path
+                        d="M336.5 160C322 70.7 287.8 8 248 8s-74 62.7-88.5 152h177zM152 256c0 22.2 1.2 43.5 3.3 64h185.3c2.1-20.5 3.3-41.8 3.3-64s-1.2-43.5-3.3-64H155.3c-2.1 20.5-3.3 41.8-3.3 64zm324.7-96c-28.6-67.9-86.5-120.4-158-141.6 24.4 33.8 41.2 84.7 50 141.6h108zM177.2 18.4C105.8 39.6 47.8 92.1 19.3 160h108c8.7-56.9 25.5-107.8 49.9-141.6zM487.4 192H372.7c2.1 21 3.3 42.5 3.3 64s-1.2 43-3.3 64h114.6c5.5-20.5 8.6-41.8 8.6-64s-3.1-43.5-8.5-64zM120 256c0-21.5 1.2-43 3.3-64H8.6C3.2 212.5 0 233.8 0 256s3.2 43.5 8.6 64h114.6c-2-21-3.2-42.5-3.2-64zm39.5 96c14.5 89.3 48.7 152 88.5 152s74-62.7 88.5-152h-177zm159.3 141.6c71.4-21.2 129.4-73.7 158-141.6h-108c-8.8 56.9-25.6 107.8-50 141.6zM19.3 352c28.6 67.9 86.5 120.4 158 141.6-24.4-33.8-41.2-84.7-50-141.6h-108z"
+                    />
+                </svg>
+            </button>
+        </header>
+
+        <main class="mx-auto mt-8 max-w-2xl">
+            <section class="bg-sonolus-ui-button-normal p-8">
+                <h2 class="flex justify-center">
+                    <img
+                        class="h-20 w-20 rounded-2xl"
+                        width="1024"
+                        height="1024"
+                        src="./icon.png"
+                        alt="Sonolus Icon"
+                    />
+                </h2>
+
+                <p class="mt-8 text-center">
+                    <inject-translation>app.description</inject-translation>
+                </p>
+
+                <p class="mt-8 text-center font-bold">0.7.2 Beta</p>
+
+                <div class="mb-4 mt-4 space-x-8 text-center">
+                    <a class="cursor-pointer" href="dl-ios" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 384 512"
+                        >
+                            <path
+                                d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">
+                            <inject-translation>app.iOS</inject-translation>
+                        </span>
+                    </a>
+                    <a class="cursor-pointer" href="dl-android" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512"
+                        >
+                            <path
+                                d="M420.55,301.93a24,24,0,1,1,24-24,24,24,0,0,1-24,24m-265.1,0a24,24,0,1,1,24-24,24,24,0,0,1-24,24m273.7-144.48,47.94-83a10,10,0,1,0-17.27-10h0l-48.54,84.07a301.25,301.25,0,0,0-246.56,0L116.18,64.45a10,10,0,1,0-17.27,10h0l47.94,83C64.53,202.22,8.24,285.55,0,384H576c-8.24-98.45-64.54-181.78-146.85-226.55"
+                            />
+                        </svg>
+                        <span class="align-middle underline">
+                            <inject-translation>app.android</inject-translation>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="mt-8 bg-sonolus-ui-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>script.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>script.description</inject-translation>
+                </p>
+
+                <div class="mb-4 mt-8 text-center">
+                    <a class="cursor-pointer" href="wiki" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">
+                            <inject-translation>script.wiki</inject-translation>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="mt-8 bg-sonolus-ui-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>servers.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>servers.description</inject-translation>
+                </p>
+
+                <p class="mb-4 mt-4">
+                    <inject-translation>servers.join</inject-translation>
+                </p>
+            </section>
+
+            <section class="mt-8 bg-sonolus-ui-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>community.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>community.description</inject-translation>
+                </p>
+
+                <div class="mb-4 mt-8 space-x-8 text-center">
+                    <a class="cursor-pointer" href="https://discord.gg/zStqbJahH7" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">Discord</span>
+                    </a>
+                    <a
+                        class="cursor-pointer"
+                        href="https://jq.qq.com/?_wv=1027&k=3iNyJgRv"
+                        target="_blank"
+                    >
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M433.754 420.445c-11.526 1.393-44.86-52.741-44.86-52.741 0 31.345-16.136 72.247-51.051 101.786 16.842 5.192 54.843 19.167 45.803 34.421-7.316 12.343-125.51 7.881-159.632 4.037-34.122 3.844-152.316 8.306-159.632-4.037-9.045-15.25 28.918-29.214 45.783-34.415-34.92-29.539-51.059-70.445-51.059-101.792 0 0-33.334 54.134-44.859 52.741-5.37-.65-12.424-29.644 9.347-99.704 10.261-33.024 21.995-60.478 40.144-105.779C60.683 98.063 108.982.006 224 0c113.737.006 163.156 96.133 160.264 214.963 18.118 45.223 29.912 72.85 40.144 105.778 21.768 70.06 14.716 99.053 9.346 99.704z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">1126890062</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="mt-8 bg-sonolus-ui-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>support.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>support.description</inject-translation>
+                </p>
+
+                <div class="mb-4 mt-8 space-x-8 text-center">
+                    <a
+                        class="cursor-pointer"
+                        href="https://www.patreon.com/Sonolus"
+                        target="_blank"
+                    >
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512"
+                        >
+                            <path
+                                d="M512 194.8c0 101.3-82.4 183.8-183.8 183.8-101.7 0-184.4-82.4-184.4-183.8 0-101.6 82.7-184.3 184.4-184.3C429.6 10.5 512 93.2 512 194.8zM0 501.5h90v-491H0v491z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">Patreon</span>
+                    </a>
+                    <a class="cursor-pointer" href="https://afdian.net/@Sonolus" target="_blank">
+                        <img
+                            class="inline-block h-6 w-6"
+                            width="80"
+                            height="80"
+                            src="./src/assets/afdian-icon.png"
+                            alt="爱发电"
+                        />
+                        <span class="align-middle underline">爱发电</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="my-8 text-center text-xs">Contact: burritoyangster@gmail.com</footer>
+
+        <div
+            id="popup-localization"
+            class="pointer-events-none fixed bottom-0 left-0 right-0 top-16 flex flex-col items-center space-y-2 bg-sonolus-main/95 p-8 opacity-0 transition-opacity duration-200"
+        >
+            <inject-localization>
+                <a
+                    class="localization flex w-full max-w-sm cursor-pointer items-center bg-sonolus-ui-button-normal p-2 transition-colors duration-200 hover:bg-sonolus-ui-button-highlighted active:bg-sonolus-ui-button-pressed"
+                    href="localization"
+                >
+                    <svg
+                        class="h-6 w-6 fill-current"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 640 512"
+                    >
+                        <path
+                            d="M152.1 236.2c-3.5-12.1-7.8-33.2-7.8-33.2h-.5s-4.3 21.1-7.8 33.2l-11.1 37.5H163zM616 96H336v320h280c13.3 0 24-10.7 24-24V120c0-13.3-10.7-24-24-24zm-24 120c0 6.6-5.4 12-12 12h-11.4c-6.9 23.6-21.7 47.4-42.7 69.9 8.4 6.4 17.1 12.5 26.1 18 5.5 3.4 7.3 10.5 4.1 16.2l-7.9 13.9c-3.4 5.9-10.9 7.8-16.7 4.3-12.6-7.8-24.5-16.1-35.4-24.9-10.9 8.7-22.7 17.1-35.4 24.9-5.8 3.5-13.3 1.6-16.7-4.3l-7.9-13.9c-3.2-5.6-1.4-12.8 4.2-16.2 9.3-5.7 18-11.7 26.1-18-7.9-8.4-14.9-17-21-25.7-4-5.7-2.2-13.6 3.7-17.1l6.5-3.9 7.3-4.3c5.4-3.2 12.4-1.7 16 3.4 5 7 10.8 14 17.4 20.9 13.5-14.2 23.8-28.9 30-43.2H412c-6.6 0-12-5.4-12-12v-16c0-6.6 5.4-12 12-12h64v-16c0-6.6 5.4-12 12-12h16c6.6 0 12 5.4 12 12v16h64c6.6 0 12 5.4 12 12zM0 120v272c0 13.3 10.7 24 24 24h280V96H24c-13.3 0-24 10.7-24 24zm58.9 216.1L116.4 167c1.7-4.9 6.2-8.1 11.4-8.1h32.5c5.1 0 9.7 3.3 11.4 8.1l57.5 169.1c2.6 7.8-3.1 15.9-11.4 15.9h-22.9a12 12 0 0 1-11.5-8.6l-9.4-31.9h-60.2l-9.1 31.8c-1.5 5.1-6.2 8.7-11.5 8.7H70.3c-8.2 0-14-8.1-11.4-15.9z"
+                        />
+                    </svg>
+                    <span class="ml-2 w-full text-center">
+                        <inject-name></inject-name>
+                    </span>
+                </a>
+            </inject-localization>
+        </div>
+
+        <script type="module" src="./src/index.ts"></script>
+    </body>
+</html>
