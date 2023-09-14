@@ -1,8 +1,8 @@
 {
   "meta.name": "简体中文 (Simplified Chinese)",
   "meta.lang": "zh-Hans",
-  "meta.title": "Sonolus - 新一代的音乐游戏",
-  "app.description": "Sonolus 是款新一代的移动端音乐游戏，旨在为玩家和谱师提供最高的自由度",
+  "meta.title": "Sonolus - 新一代的音乐节奏游戏",
+  "app.description": "Sonolus 是款新一代的移动端音乐节奏游戏，旨在为玩家和谱师提供最高的自由度",
   "app.iOS": "iOS",
   "app.android": "安卓",
   "script.title": "脚本驱动",
