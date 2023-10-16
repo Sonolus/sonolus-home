@@ -6,13 +6,13 @@
   "app.iOS": "iOS",
   "app.android": "Android",
   "script.title": "강력한 스크립트",
-  "script.description": "강력하고 성능이 뛰어난 스크립팅 시스템으로 상상할 수 있는 모든 리듬 게임 엔진을 제작할 수 있어요. 기존에 있는 게임을 복제하거나, 완전히 다른 엔진을 제작하거나, 뭐든지 가능합니다.",
+  "script.description": "강력하고 성능이 뛰어난 스크립팅 시스템으로 상상할 수 있는 모든 리듬 게임 엔진을 제작할 수 있습니다. 기존에 있는 게임을 복제하거나, 완전히 다른 엔진을 제작하거나, 뭐든지 가능합니다.",
   "script.wiki": "Sonolus 위키",
   "servers.title": "서버",
-  "servers.description": "다양한 게임 모드에 맞는 다양한 서버를 이용할 수 있어요!",
-  "servers.join": "커뮤니티에 가입하면 더 많은 정보를 확인할 수 있어요.",
+  "servers.description": "게임 모드에 맞는 다양한 서버를 이용할 수 있습니다!",
+  "servers.join": "커뮤니티에 가입하면 더 많은 정보를 확인할 수 있습니다.",
   "community.title": "커뮤니티",
-  "community.description": "커뮤니티에 가입해서 최신 개발 관련 정보를 확인해보세요!",
+  "community.description": "커뮤니티에 가입해서 최신 개발 관련 정보를 확인해보실 수 있습니다!",
   "support.title": "후원",
-  "support.description": "Sonolus를 재미있게 즐기고 계신다면 재정적 부담을 덜기 위해 후원을 고려해주세요."
+  "support.description": "Sonolus를 재미있게 즐기고 계신다면 재정적 부담을 덜기 위해 후원을 고려해 주십시오."
 }
