@@ -44,3 +44,9 @@ document.getElementById('btn-localization')?.addEventListener('click', togglePop
 for (const localization of document.getElementsByClassName('localization')) {
     ;(localization as HTMLAnchorElement).addEventListener('click', togglePopup)
 }
+
+for (const element of document.getElementsByTagName('localize-datetime')) {
+    if (!element.textContent) continue
+
+    element.textContent = new Date(+element.textContent).toLocaleString()
+}
