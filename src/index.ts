@@ -48,5 +48,14 @@ for (const localization of document.getElementsByClassName('localization')) {
 for (const element of document.getElementsByTagName('localize-datetime')) {
     if (!element.textContent) continue
 
-    element.textContent = new Date(+element.textContent).toLocaleString()
+    const time = +element.textContent
+
+    element.textContent = new Date(time).toLocaleString()
+
+    if (Date.now() > time + 10 * 60 * 1000) {
+        ;(element.parentNode as HTMLLIElement).classList.add(
+            'line-through',
+            'text-sonolus-ui-text-disabled',
+        )
+    }
 }
