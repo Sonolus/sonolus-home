@@ -52,7 +52,7 @@ for (const element of document.getElementsByTagName('localize-datetime')) {
 
     element.textContent = new Date(time).toLocaleString()
 
-    if (Date.now() > time + 10 * 60 * 1000) {
+    if (Date.now() > time + 60 * 60 * 1000) {
         ;(element.parentNode as HTMLLIElement).classList.add(
             'line-through',
             'text-sonolus-ui-text-disabled',
