@@ -44,18 +44,3 @@ document.getElementById('btn-localization')?.addEventListener('click', togglePop
 for (const localization of document.getElementsByClassName('localization')) {
     ;(localization as HTMLAnchorElement).addEventListener('click', togglePopup)
 }
-
-for (const element of document.getElementsByTagName('localize-datetime')) {
-    if (!element.textContent) continue
-
-    const time = +element.textContent
-
-    element.textContent = new Date(time).toLocaleString()
-
-    if (Date.now() > time + 60 * 60 * 1000) {
-        ;(element.parentNode as HTMLLIElement).classList.add(
-            'line-through',
-            'text-sonolus-ui-text-disabled',
-        )
-    }
-}
