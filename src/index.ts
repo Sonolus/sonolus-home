@@ -44,3 +44,23 @@ document.getElementById('btn-localization')?.addEventListener('click', togglePop
 for (const localization of document.getElementsByClassName('localization')) {
     ;(localization as HTMLAnchorElement).addEventListener('click', togglePopup)
 }
+
+const list = document.getElementById('testflight-list')
+
+for (const [time, amount] of [
+    [1720180800000, 250],
+    [1720224000000, 250],
+    [1720267200000, 250],
+    [1720310400000, 250],
+    [1720353600000, 250],
+    [1720396800000, 250],
+]) {
+    const item = document.createElement('li')
+    item.textContent = `${new Date(time).toLocaleString()}: ${amount}`
+
+    if (Date.now() > time + 12 * 60 * 60 * 1000) {
+        item.classList.add('line-through', 'text-sonolus-ui-text-disabled')
+    }
+
+    list?.appendChild(item)
+}

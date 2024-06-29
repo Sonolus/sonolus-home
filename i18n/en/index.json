@@ -5,6 +5,8 @@
     "app.description": "Sonolus is a next generation Mobile Rhythm Game that aims to provide maximum freedom to players and level makers.",
     "app.iOS": "iOS",
     "app.android": "Android",
+    "testflight.title": "Upcoming iOS TestFlight Spots",
+    "testflight.description": "The following times are in your local timezone:",
     "script.title": "Script Powered",
     "script.description": "With powerful and performant scripting system, you can create any rhythm game engine imaginable. Whether it's to replicate an existing game or to create an entirely different engine, you can do it all.",
     "script.wiki": "Sonolus Wiki",
