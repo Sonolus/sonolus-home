@@ -5,6 +5,8 @@
   "app.description": "Sonolusとは、プレイヤーと譜面制作者の自由度を重視して作り上げた次世代リズムゲーム",
   "app.iOS": "iOS",
   "app.android": "Android",
+  "testflight.title": "iOS：TestFlightの枠開放",
+  "testflight.description": "以下の時間はデバイスのタイムゾーンと同期しています：",
   "script.title": "スクリプト駆動",
   "script.description": "高性能スクリプトエンジンを基に、どのようなリズムゲームエンジンでも開発できる。現有のリズムゲームを再現するか、全く新しいゲームエンジンを創るか、可能性は無限大。",
   "script.wiki": "Sonolus Wiki",
