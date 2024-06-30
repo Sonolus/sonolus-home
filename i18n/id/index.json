@@ -5,6 +5,8 @@
   "app.description": "Sonolus adalah Permainan Ritme Mobile generasi berikutnya yang bertujuan untuk memberikan kebebasan maksimum kepada pemain dan pembuat level.",
   "app.iOS": "iOS",
   "app.android": "Android",
+  "testflight.title": "Spot TestFlight iOS yang akan datang",
+  "testflight.description": "Waktu berikut berada dalam zona waktu lokal Anda:",
   "script.title": "Didukung oleh Skrip",
   "script.description": "Dengan sistem skrip yang kuat dan performan, Anda dapat membuat mesin permainan ritme apa pun yang dapat dibayangkan. Apakah itu mereplikasi permainan yang ada atau membuat mesin yang sama sekali berbeda, Anda dapat melakukan semuanya.",
   "script.wiki": "Sonolus Wiki",
