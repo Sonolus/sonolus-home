@@ -5,6 +5,8 @@
   "app.description": "Sonolus 是款新一代的移动端音乐节奏游戏，旨在为玩家和谱师提供最高的自由度",
   "app.iOS": "iOS",
   "app.android": "安卓",
+  "testflight.title": "即将到来的 iOS TestFlight 名额",
+  "testflight.description": "根据您的本地时区，其开放时间如下:",
   "script.title": "脚本驱动",
   "script.description": "凭借强大和高性能的脚本系统，你可以制作出任何一款想象中的音乐游戏引擎。无论是复制已现有的游戏，还是创造出一款完全不同的游戏，你都可以做到。",
   "script.wiki": "Sonolus 百科",
