@@ -5,6 +5,8 @@
   "app.description": "Sonolus, oyunculara ve seviye yapımcılara maksimum özgürlük sağlamayı amaçlayan yeni nesil bir Mobil Ritim Oyunudur.",
   "app.iOS": "iOS",
   "app.android": "Android",
+  "testflight.title": "Yaklaşan iOS TestFlight Yerleri",
+  "testflight.description": "Aşağıdaki saatler, yerel saat diliminizdedir:",
   "script.title": "Betik (Script) Dili Destekli",
   "script.description": "Güçlü ve performanslı betik sistemiyle, hayal edebileceğiniz herhangi bir ritim oyun motorunu oluşturabilirsiniz. İster mevcut bir oyunun aynısını yapmak, ister tamamen farklı bir motor yaratmak olsun.",
   "script.wiki": "Sonolus Wiki",
