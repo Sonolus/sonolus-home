@@ -20,6 +20,7 @@ if (location.pathname === '/') {
             case 'id':
             case 'ja':
             case 'ko':
+            case 'ru':
             case 'tr':
                 break
             default:
