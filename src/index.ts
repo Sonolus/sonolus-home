@@ -49,12 +49,12 @@ for (const localization of document.getElementsByClassName('localization')) {
 const list = document.getElementById('testflight-list')
 
 for (const [time, amount] of [
-    [1720180800000, 250],
-    [1720224000000, 250],
-    [1720267200000, 250],
-    [1720310400000, 250],
-    [1720353600000, 250],
-    [1720396800000, 250],
+    [1723204800000, 150],
+    [1723248000000, 150],
+    [1723291200000, 150],
+    [1723334400000, 150],
+    [1723377600000, 150],
+    [1723420800000, 150],
 ]) {
     const item = document.createElement('li')
     item.textContent = `${new Date(time).toLocaleString()}: ${amount}`
