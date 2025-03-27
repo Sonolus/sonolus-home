@@ -38,11 +38,11 @@ for (const { locale, localization } of i18n) {
         )
         .replace(
             'href="dl-ios"',
-            `href="https://wiki.sonolus.com/getting-started${wikiLocale}/installing/ios.html"`,
+            `href="https://wiki.sonolus.com${wikiLocale}/getting-started/installing/ios"`,
         )
         .replace(
             'href="dl-android"',
-            `href="https://wiki.sonolus.com/getting-started${wikiLocale}/installing/android.html"`,
+            `href="https://wiki.sonolus.com${wikiLocale}/getting-started/installing/android"`,
         )
         .replace('href="wiki"', `href="https://wiki.sonolus.com${wikiLocale}"`)
         .replace(
