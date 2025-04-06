@@ -1,0 +1,18 @@
+{
+  "meta.name": "Português (Brasil) (Português - Brasil)",
+  "meta.lang": "pt-br",
+  "meta.title": "Sonolus - Jogo de ritmo de última geração",
+  "app.description": "Sonolus é um jogo de ritmo para dispositivos móveis de última geração que visa oferecer o máximo de liberdade aos jogadores e criadores de níveis.",
+  "app.iOS": "iOS",
+  "testflight.title": "Próximos iOS TestFlight Spots",
+  "testflight.description": "Os seguintes horários estão no seu fuso horário local:",
+  "script.title": "Script alimentado",
+  "script.description": "Com um sistema de script poderoso e performático, você pode criar qualquer engine de jogo de ritmo imaginável. Seja para replicar um jogo existente ou para criar uma engine totalmente diferente, você pode fazer tudo.",
+  "servers.title": "Servidor",
+  "servers.description": "Uma grande variedade de servidores disponíveis para diferentes modos de jogo!",
+  "servers.join": "Junte-se à nossa comunidade para mais informações.",
+  "community.title": "Comunidade",
+  "community.description": "Junte-se à nossa comunidade para receber as últimas notícias e informações sobre desenvolvimento!",
+  "support.title": "Apoie-nos",
+  "support.description": "Se você gosta do Sonolus, considere nos apoiar para aliviar a pressão financeira."
+}
