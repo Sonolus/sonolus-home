@@ -1,12 +1,10 @@
 **/*.*
 
-!.eslintrc.cjs
-!postcss.config.cjs
-!tailwind.config.cjs
-!vite.config.ts
-
-!render.js
-
+!eslint.config.js
 !index.html
+!README.md
+!render.js
+!tailwind.config.js
+!vite.config.ts
 
 !src/**/*.*
