@@ -23,8 +23,6 @@ const localizationMatch = /<inject-localization>(.*)<\/inject-localization>/gs.e
 for (const { locale, localization } of i18n) {
     const t = (key) => localization[key] ?? fallbackLocalization[key]
 
-    const wikiLocale = locale === 'en' ? '' : `/${locale}`
-
     let out = html
         .replace('<html>', `<html lang="${localization['meta.lang']}">`)
         .replace(
@@ -36,15 +34,12 @@ for (const { locale, localization } of i18n) {
                 '</head>',
             ].join(''),
         )
+        .replace('src="ios"', `src="./ios-${locale}.png"`)
+        .replace('src="android"', `src="./android-${locale}.png"`)
         .replace(
-            'href="dl-ios"',
-            `href="https://wiki.sonolus.com${wikiLocale}/getting-started/installing/ios"`,
+            'href="wiki"',
+            `href="https://wiki.sonolus.com${locale === 'en' ? '' : `/${locale}`}"`,
         )
-        .replace(
-            'href="dl-android"',
-            `href="https://wiki.sonolus.com${wikiLocale}/getting-started/installing/android"`,
-        )
-        .replace('href="wiki"', `href="https://wiki.sonolus.com${wikiLocale}"`)
         .replace(
             localizationMatch[0],
             i18n

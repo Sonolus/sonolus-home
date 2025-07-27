@@ -1,20 +1,6 @@
 {
   "meta.name": "日本語 (Japanese)",
   "meta.lang": "ja",
-  "meta.title": "Sonolus - 次世代リズムゲーム",
-  "app.description": "Sonolusとは、プレイヤーと譜面制作者の自由度を重視して作り上げた次世代リズムゲーム",
-  "app.iOS": "iOS",
-  "app.android": "Android",
-  "testflight.title": "iOS：TestFlightの枠開放",
-  "testflight.description": "以下の時間はデバイスのタイムゾーンと同期しています：",
-  "script.title": "スクリプト駆動",
-  "script.description": "高性能スクリプトエンジンを基に、どのようなリズムゲームエンジンでも開発できる。現有のリズムゲームを再現するか、全く新しいゲームエンジンを創るか、可能性は無限大。",
-  "script.wiki": "Sonolus Wiki",
-  "servers.title": "サーバー",
-  "servers.description": "様々なゲームモードに対応するサーバーがあります。",
-  "servers.join": "コミュニティに入り、たくさんのコンテンツを楽しもう。",
-  "community.title": "コミュニティ",
-  "community.description": "最新開発ニュースや情報などはぜひコミュニティに入ってみよう！",
-  "support.title": "応援する",
-  "support.description": "Sonolusが楽しいと思う方はもし宜しければ、金銭的な負担を減らすためのご支援はぜひよろしくお願いします。"
+  "meta.title": "Sonolus - 次時代リズムゲーム",
+  "app.description": "リズムゲームの世界を探索したり、他のプレイヤーとつながったり、自分で譜面を作って共有したり、渾身のリプレイを公開したりと、可能性は無限大です！\n一人で遊んだり、友人と盛り上がったり、対戦したり…　リズムゲームの世界は無限に広がっています！"
 }

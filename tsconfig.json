@@ -1,25 +1,17 @@
 {
+    "include": ["src/**/*"],
     "compilerOptions": {
         "lib": [
-        "ES2020",
-        "DOM",
-        "DOM.Iterable"
+            "ES2020",
+            "DOM",
+            "DOM.Iterable",
         ],
-        "target": "ES2020",
+        "target": "ESNext",
         "module": "ESNext",
-        "moduleResolution": "bundler",
-
-        "allowImportingTsExtensions": true,
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "noEmit": true,
-
+        "moduleResolution": "Bundler",
         "strict": true,
         "skipLibCheck": true,
-        "exactOptionalPropertyTypes": true,
-        "forceConsistentCasingInFileNames": true,
-    },
-    "include": [
-        "src"
-    ]
+        "noUncheckedIndexedAccess": true,
+        "types": ["vite/client"]
+    }
 }

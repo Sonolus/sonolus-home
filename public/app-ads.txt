@@ -1,3 +1,0 @@
-google.com, pub-2474383148532300, DIRECT, f08c47fec0942fa0
-pangleglobal.com, 5030587, DIRECT
-pubmatic.com, 161490, RESELLER, 5d62403b186f2ace
