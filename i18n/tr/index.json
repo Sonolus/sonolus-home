@@ -1,6 +1,14 @@
 {
   "meta.name": "Türkçe (Turkish)",
   "meta.lang": "tr",
-  "meta.title": "Sonolus - Yeni Nesil Ritim Oyunu",
-  "app.description": "Ritim oyunları dünyasını keşfedin, diğer ritim oyunu severlerle birlikte olun, kendi seviyelerinizi ve tekrarlarınızı oluşturup paylaşın! Bunlar ve bunlardan daha fazlası Sonolus ile sizi bekliyor!\nİster tek başınıza, ister başkalarıyla birlikte oynayın; ya da başkalarına karşı yarışın! Her türlü keşfedilmeyi bekleyen bir canlı ritim oyunları dünyası var!"
+  "app.subtitle": "Yeni Nesil Ritim Oyunu",
+  "app.description": "Ritim oyunları dünyasını keşfedin, diğer ritim oyunu severlerle birlikte olun, kendi seviyelerinizi ve tekrarlarınızı oluşturup paylaşın! Bunlar ve bunlardan daha fazlası Sonolus ile sizi bekliyor!\nİster tek başınıza, ister başkalarıyla birlikte oynayın; ya da başkalarına karşı yarışın! Her türlü keşfedilmeyi bekleyen bir canlı ritim oyunları dünyası var!",
+  "script.title": "Betik (Script) Dili Destekli",
+  "script.description": "Güçlü ve performanslı betik sistemiyle, hayal edebileceğiniz herhangi bir ritim oyun motorunu oluşturabilirsiniz. İster mevcut bir oyunun aynısını yapmak, ister tamamen farklı bir motor yaratmak olsun.",
+  "script.wiki": "Sonolus Wiki",
+  "servers.title": "Sunucular",
+  "servers.description": "Farklı oyun modları için çeşitli sunucular mevcut!",
+  "servers.join": "Daha fazlası için topluluğumuza katılın.",
+  "community.title": "Topluluk",
+  "community.description": "Oyunun en son geliştime haberlerinden ve bilgilerinden haberdar olmak için topluluğumuza katılın!"
 }

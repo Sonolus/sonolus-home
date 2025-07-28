@@ -29,7 +29,7 @@ for (const { locale, localization } of i18n) {
             '</head>',
             [
                 ...altLinks,
-                `<title>${t('meta.title')}</title>`,
+                `<title>Sonolus - ${t('app.subtitle')}</title>`,
                 `<meta name="description" content="${t('app.description')}" />`,
                 '</head>',
             ].join(''),
@@ -52,7 +52,7 @@ for (const { locale, localization } of i18n) {
         )
 
     for (const [search, key] of translationMatches) {
-        out = out.replace(search, t(key))
+        out = out.replace(search, t(key).replace('\n', '<br />'))
     }
 
     writeFileSync(`./dist/${locale}.html`, out)

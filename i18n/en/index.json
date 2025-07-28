@@ -1,6 +1,14 @@
 {
     "meta.name": "English (English)",
     "meta.lang": "en",
-    "meta.title": "Sonolus - Next Generation Rhythm Game",
-    "app.description": "Explore the world of rhythm games, connect with other rhythm game lovers, create and share your own levels and replays, and more!\nWhether you are playing solo, together with other people, or competing against other people, there is a vibrant world of rhythm games waiting to be discovered!"
+    "app.subtitle": "Next Generation Rhythm Game",
+    "app.description": "Explore the world of rhythm games, connect with other rhythm game lovers, create and share your own levels and replays, and more!\nWhether you are playing solo, together with other people, or competing against other people, there is a vibrant world of rhythm games waiting to be discovered!",
+    "script.title": "Script Powered",
+    "script.description": "With powerful and performant scripting system, you can create any rhythm game engine imaginable. Whether it's to replicate an existing game or to create an entirely different engine, you can do it all.",
+    "script.wiki": "Sonolus Wiki",
+    "servers.title": "Servers",
+    "servers.description": "A wide variety of servers available for different game modes!",
+    "servers.join": "Join our community for more.",
+    "community.title": "Community",
+    "community.description": "Join our community for latest development news and information!"
 }

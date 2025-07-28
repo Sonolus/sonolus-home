@@ -23,22 +23,22 @@
         <meta property="og:image" content="https://sonolus.com/icon.png" />
     </head>
 
-    <body class="flex h-[100vh] flex-col bg-main text-text-normal">
+    <body class="bg-main text-text-normal">
         <img
             class="banner pointer-events-none fixed top-16 -z-10 w-full sm:hidden"
-            src="./src/assets/bg-xs.png"
+            src="./bg-xs.png"
             alt="Background"
             loading="lazy"
         />
 
         <img
             class="pointer-events-none fixed -z-10 hidden h-full w-full object-cover opacity-30 sm:block"
-            src="./src/assets/bg-sm.png"
+            src="./bg-sm.png"
             alt="Background"
             loading="lazy"
         />
 
-        <header class="flex h-16 items-center justify-between bg-surface">
+        <header class="sticky top-0 flex h-16 items-center justify-between bg-surface">
             <div class="size-16"></div>
 
             <h1>
@@ -46,7 +46,7 @@
                     class="h-8 w-auto"
                     width="1775"
                     height="360"
-                    src="./src/assets/logo.png"
+                    src="./logo.png"
                     alt="Sonolus Logo"
                 />
             </h1>
@@ -64,22 +64,22 @@
             </button>
         </header>
 
-        <main class="mx-auto flex w-full max-w-2xl flex-grow flex-col justify-center gap-8 p-8">
-            <h2 class="flex justify-center">
+        <main class="mx-auto my-8 max-w-2xl">
+            <h1 class="flex items-center justify-center gap-4">
                 <img
-                    class="size-20 rounded-2xl shadow-lg shadow-text-disabled"
+                    class="size-12 rounded-2xl shadow-lg shadow-text-disabled"
                     width="1024"
                     height="1024"
                     src="./icon.png"
                     alt="Sonolus Icon"
                 />
-            </h2>
-
-            <p class="text-center">
-                <inject-translation>app.description</inject-translation>
+                <span class="text-4xl font-bold">Sonolus</span>
+            </h1>
+            <p class="mt-2 text-center text-lg font-semibold">
+                <inject-translation>app.subtitle</inject-translation>
             </p>
 
-            <div class="flex items-center justify-center gap-2 sm:gap-4">
+            <div class="mt-4 flex items-center justify-center gap-2 sm:gap-4">
                 <a href="" target="_blank">
                     <img class="h-9 sm:h-12" src="ios" alt="Download on the App Store" />
                 </a>
@@ -87,24 +87,92 @@
                     <img class="h-9 sm:h-12" src="android" alt="Get it on Google Play" />
                 </a>
             </div>
+
+            <section class="mt-8 bg-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">Sonolus</h2>
+
+                <p class="mt-8">
+                    <inject-translation>app.description</inject-translation>
+                </p>
+            </section>
+
+            <section class="mt-8 bg-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>script.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>script.description</inject-translation>
+                </p>
+
+                <div class="mb-4 mt-8 text-center">
+                    <a class="cursor-pointer" href="wiki" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">
+                            <inject-translation>script.wiki</inject-translation>
+                        </span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="mt-8 bg-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>servers.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>servers.description</inject-translation>
+                </p>
+
+                <p class="mb-4 mt-4">
+                    <inject-translation>servers.join</inject-translation>
+                </p>
+            </section>
+
+            <section class="mt-8 bg-button-normal p-8">
+                <h2 class="text-center text-2xl font-bold">
+                    <inject-translation>community.title</inject-translation>
+                </h2>
+
+                <p class="mt-8">
+                    <inject-translation>community.description</inject-translation>
+                </p>
+
+                <div class="mb-4 mt-8 text-center">
+                    <a class="cursor-pointer" href="https://discord.gg/zStqbJahH7" target="_blank">
+                        <svg
+                            class="inline-block h-6 w-6 fill-current"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 448 512"
+                        >
+                            <path
+                                d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"
+                            />
+                        </svg>
+                        <span class="align-middle underline">Discord</span>
+                    </a>
+                </div>
+            </section>
         </main>
 
-        <footer class="mb-8 text-xs">
-            <div class="flex justify-center gap-4">
-                <a href="mailto:support@sonolus.com" target="_blank">Contact</a>
-                <a href="wiki" target="_blank">Wiki</a>
-                <a href="https://discord.gg/zStqbJahH7" target="_blank">Discord</a>
-            </div>
-            <div class="mt-2 flex justify-center gap-4">
-                <a href="/tos" target="_blank">Terms of Service</a>
-                <a href="/eula" target="_blank">EULA</a>
-                <a href="/privacy" target="_blank">Privacy Policy</a>
-            </div>
+        <footer class="mb-8 flex justify-center gap-4 text-xs">
+            <a href="mailto:support@sonolus.com" target="_blank">Contact</a>
+            <a href="/tos" target="_blank">Terms of Service</a>
+            <a href="/eula" target="_blank">EULA</a>
+            <a href="/privacy" target="_blank">Privacy Policy</a>
         </footer>
 
         <div
             id="popup-localization"
-            class="pointer-events-none fixed bottom-0 left-0 right-0 top-16 flex flex-col items-center space-y-2 bg-main/95 p-8 opacity-0 transition-opacity duration-200"
+            class="pointer-events-none fixed bottom-0 left-0 right-0 top-16 flex flex-col items-center gap-2 bg-main/95 p-8 opacity-0 transition-opacity duration-200"
         >
             <inject-localization>
                 <a
