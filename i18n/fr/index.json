@@ -1,6 +1,14 @@
 {
-    "meta.name": "Français (French)",
-    "meta.lang": "fr",
-    "app.subtitle": "Jeu de Rythme Nouvelle Ère",
-    "app.description": "Explorez le monde des jeux de rythme, connectez-vous avec d’autres passionnés, créez et partagez vos propres niveaux et replays, et bien plus encore!\nQue vous jouiez seul, à plusieurs ou en affrontant d'autres joueurs, un monde vibrant de jeux de rythme n’attend que d’être découvert!"
+  "meta.name": "Français (French)",
+  "meta.lang": "fr",
+  "app.subtitle": "Jeu de Rythme Nouvelle Ère",
+  "app.description": "Explorez le monde des jeux de rythme, connectez-vous avec d’autres passionnés, créez et partagez vos propres niveaux et replays, et bien plus encore!\nQue vous jouiez seul, à plusieurs ou en affrontant d'autres joueurs, un monde vibrant de jeux de rythme n’attend que d’être découvert!",
+  "script.title": "Propulsé par des Scripts",
+  "script.description": "Grâce à un puissant et performant système de script, vous pouvez créer tous les moteurs de jeu de rythme imaginables. Qu'il s'agisse de reproduire un jeu existant ou de créer un tout nouveau moteur, vous pouvez tout faire.",
+  "script.wiki": "Wiki Sonolus",
+  "servers.title": "Serveurs",
+  "servers.description": "De nombreux serveurs disponibles pour différents modes de jeu!",
+  "servers.join": "Rejoignez notre communauté pour en savoir plus.",
+  "community.title": "Communauté",
+  "community.description": "Rejoignez notre communauté pour suivre les dernières infos sur le développement!"
 }
