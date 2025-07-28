@@ -1,6 +1,14 @@
 {
   "meta.name": "繁體中文 (Traditional Chinese)",
   "meta.lang": "zh-Hant",
-  "meta.title": "Sonolus - 新一代的音乐节奏游戏",
-  "app.description": "探索音乐节奏游戏的世界，与其他节奏游戏爱好者相连，创建并分享您的关卡与回放，还有更多内容！\n无论您是独自游玩，或者是与其他玩家一起玩，亦或者是与其他玩家竞赛，一个充满活力的节奏世界等待您去探索！"
+  "app.subtitle": "新一代的音乐节奏游戏",
+  "app.description": "探索音乐节奏游戏的世界，与其他节奏游戏爱好者相连，创建并分享您的关卡与回放，还有更多内容！\n无论您是独自游玩，或者是与其他玩家一起玩，亦或者是与其他玩家竞赛，一个充满活力的节奏世界等待您去探索！",
+  "script.title": "腳本驅動",
+  "script.description": "憑藉我們強大和高性能的腳本系統，你可以製作出任何一款想像中的音樂遊戲引擎。不論是複制已現有的遊戲，還是創造出一款完全不同的遊戲，你都可以做到。",
+  "script.wiki": "Sonolus 百科",
+  "servers.title": "伺服器",
+  "servers.description": "我們擁有各種各樣擁有許多不同遊戲模式的伺服器！",
+  "servers.join": "加入我們的交流社區以了解更多詳情。",
+  "community.title": "交流社區",
+  "community.description": "加入我們的交流社區以接收最新開發消息和資訊！"
 }
