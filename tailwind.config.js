@@ -18,6 +18,7 @@ export default {
             'text-soften': 'rgba(255, 255, 255, 0.75)',
             'text-disabled': 'rgba(255, 255, 255, 0.25)',
 
+            'button-transparent': 'rgba(255, 255, 255, 0)',
             'button-normal': 'rgba(255, 255, 255, 0.125)',
             'button-soften': 'rgba(255, 255, 255, 0.0625)',
             'button-highlighted': 'rgba(255, 255, 255, 0.25)',
