@@ -7,8 +7,5 @@
   "script.description": "Con un sistem de scripting poderoso y de buen rendimiento, puedes crear cualquier motor de juego de ritmo imaginable. Ya sea replicando un juego existente o creando un motor completamente diferente, puedes hacerlo todo.",
   "script.wiki": "Wiki de Sonolus",
   "servers.title": "Servidores",
-  "servers.description": "Una amplia variedad de servidores están disponibles para diferentes modos de juego!",
-  "servers.join": "Únete a nuestra comunidad para más.",
-  "community.title": "Comunidad",
-  "community.description": "Únete a nuestra comunidad para las últimas noticias del desarrollo y más información!"
+  "servers.description": "Una amplia variedad de servidores están disponibles para diferentes modos de juego!"
 }

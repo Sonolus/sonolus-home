@@ -8,8 +8,5 @@
   "script.description": "Grâce à un puissant et performant système de script, vous pouvez créer tous les moteurs de jeu de rythme imaginables. Qu'il s'agisse de reproduire un jeu existant ou de créer un tout nouveau moteur, vous pouvez tout faire.",
   "script.wiki": "Wiki Sonolus",
   "servers.title": "Serveurs",
-  "servers.description": "De nombreux serveurs disponibles pour différents modes de jeu!",
-  "servers.join": "Rejoignez notre communauté pour en savoir plus.",
-  "community.title": "Communauté",
-  "community.description": "Rejoignez notre communauté pour suivre les dernières infos sur le développement!"
+  "servers.description": "De nombreux serveurs disponibles pour différents modes de jeu!"
 }

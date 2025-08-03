@@ -8,8 +8,5 @@
   "script.description": "高性能スクリプトエンジンを基に、どのようなリズムゲームエンジンでも開発できる。現有のリズムゲームを再現するか、全く新しいゲームエンジンを創るか、可能性は無限大。",
   "script.wiki": "Sonolus Wiki",
   "servers.title": "サーバー",
-  "servers.description": "様々なゲームモードに対応するサーバーがあります。",
-  "servers.join": "コミュニティに入り、たくさんのコンテンツを楽しもう。",
-  "community.title": "コミュニティ",
-  "community.description": "最新開発ニュースや情報などはぜひコミュニティに入ってみよう！"
+  "servers.description": "様々なゲームモードに対応するサーバーがあります。"
 }
