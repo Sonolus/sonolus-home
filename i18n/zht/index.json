@@ -7,8 +7,5 @@
   "script.description": "憑藉我們強大和高性能的腳本系統，你可以製作出任何一款想像中的音樂遊戲引擎。不論是複制已現有的遊戲，還是創造出一款完全不同的遊戲，你都可以做到。",
   "script.wiki": "Sonolus 百科",
   "servers.title": "伺服器",
-  "servers.description": "我們擁有各種各樣擁有許多不同遊戲模式的伺服器！",
-  "servers.join": "加入我們的交流社區以了解更多詳情。",
-  "community.title": "交流社區",
-  "community.description": "加入我們的交流社區以接收最新開發消息和資訊！"
+  "servers.description": "我們擁有各種各樣擁有許多不同遊戲模式的伺服器！"
 }

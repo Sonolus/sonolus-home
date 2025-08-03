@@ -7,8 +7,5 @@
   "script.description": "Güçlü ve performanslı betik sistemiyle, hayal edebileceğiniz herhangi bir ritim oyun motorunu oluşturabilirsiniz. İster mevcut bir oyunun aynısını yapmak, ister tamamen farklı bir motor yaratmak olsun.",
   "script.wiki": "Sonolus Wiki",
   "servers.title": "Sunucular",
-  "servers.description": "Farklı oyun modları için çeşitli sunucular mevcut!",
-  "servers.join": "Daha fazlası için topluluğumuza katılın.",
-  "community.title": "Topluluk",
-  "community.description": "Oyunun en son geliştime haberlerinden ve bilgilerinden haberdar olmak için topluluğumuza katılın!"
+  "servers.description": "Farklı oyun modları için çeşitli sunucular mevcut!"
 }
