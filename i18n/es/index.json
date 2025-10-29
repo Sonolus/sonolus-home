@@ -3,6 +3,7 @@
   "meta.lang": "es",
   "app.subtitle": "Juego de ritmo de última gen.",
   "app.description": "¡Explora el mundo de juegos de ritmo, conecta con otros amantes de estos, crea y comparte tus propios niveles, repeticiones y más!\nYa sea que juegues por tu cuenta, junto a otros o compitiendo contra otras personas, ¡siempre habrá un vibrante mundo de juegos de ritmo esperando ser descubierto!",
+  "app.sideload": "Sideload",
   "script.title": "Impulsado por Scripts",
   "script.description": "Con un sistem de scripting poderoso y de buen rendimiento, puedes crear cualquier motor de juego de ritmo imaginable. Ya sea replicando un juego existente o creando un motor completamente diferente, puedes hacerlo todo.",
   "script.wiki": "Wiki de Sonolus",
